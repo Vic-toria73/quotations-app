@@ -11,3 +11,12 @@ form.addEventListener('change', afficherCitationAuteur);
 function afficherCitationAuteur(e) {
     console.log(e.target.value)
 }
+
+function addQuote(quote, author){
+    quote = document.createElement('p')
+    author = document.createElement('p')
+   quote.innerText = quote.value
+   author.classList.add("author");
+
+  addQuote.body.appendChild();
+}
